@@ -46,17 +46,17 @@ a {
   flex-direction: column;
   width: 50%;
   margin: 24px;
-  gap: 10px
+  gap: 10px;
 }
 .hero .text1 {
   font-size: 48px;
   font-weight: 900;
-  color: #F9FAF8
+  color: #F9FAF8;
 }
 
 .hero .text2 {
   font-size: 18px;
-  color: #E5E7EB
+  color: #E5E7EB;
 }
 
 button {
