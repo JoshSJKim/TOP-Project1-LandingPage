@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 72px;
+  padding: 0 96px 0 72px;
 }
 
 .header p {
@@ -69,19 +69,41 @@ button {
 }
 
 .section1 .image-container {
-  width: 50%;
+  min-width: 400px;
   height: 220px;
   background-color: grey;
-  margin: 24px;
+  margin: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 14px;
+  flex-shrink: 0;
 }
 
 .section2 {
   background-color: white;
+}
+
+.section2 .text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 96px 96px 96px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882F6;
+  border-radius: 15px;
 }
 
 .section3 {
