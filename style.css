@@ -127,13 +127,13 @@ button {
   background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
-  padding: 70px 120px;
+  padding: 70px 150px;
 }
 
 .section3 .quote {
-  font-size: 30px;
+  font-size: 24px;
   font-style: italic;
-  color: #1F2937;
+  color: #535d69;
   padding-bottom: 10px;
 }
 
@@ -144,7 +144,7 @@ button {
 }
 .section4 {
   background: white;
-  padding: 50px 100px;
+  padding: 70px 120px;
 }
 
 .content-container {
@@ -167,5 +167,13 @@ button {
 }
 
 .section4 button {
-  border: 2px solid white
+  border: 2px solid white;
+}
+
+.section5 {
+  background-color: #1F2937;
+  text-align: center;
+  color: #E5E7EB;
+  padding: 30px;
+  font-size: 14px;
 }
