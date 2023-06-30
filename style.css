@@ -145,9 +145,14 @@ button {
 }
 .section3 {
   background-color: #E5E7EB;
+  padding: 70px 150px;
+}
+
+.quote-container {
+  width: 700px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  padding: 70px 150px;
 }
 
 .section3 .quote {
@@ -159,7 +164,7 @@ button {
 
 .section3 .text {
   margin-left: auto;
-  padding-right: 50px;
+  padding-right: 30px;
   font-weight: bold;
 }
 
