@@ -144,4 +144,28 @@ button {
 }
 .section4 {
   background: white;
+  padding: 50px 100px;
+}
+
+.content-container {
+  background-color: #3882F6;
+  padding: 40px 90px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.text1 {
+  color: #F9FAF8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text2 {
+  color: #E5E7EB;
+  font-size: 14px;
+}
+
+.section4 button {
+  border: 2px solid white
 }
