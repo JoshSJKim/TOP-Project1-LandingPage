@@ -110,8 +110,6 @@ button {
   padding: 30px 0;
 }
 
-/* Change container layout so that each card and caption  pair moves independently */ 
-
 .card-container{
   display: flex;
   padding: 0 250px;
@@ -145,7 +143,7 @@ button {
 
 .section3 {
   background-color: #E5E7EB;
-  padding: 70px 150px;
+  padding: 70px;
 }
 
 .quote-container {
@@ -156,16 +154,17 @@ button {
 }
 
 .section3 .quote {
-  font-size: 24px;
+  font-size: 36px;
   font-style: italic;
   color: #535d69;
-  padding-bottom: 10px;
+  font-weight: 100;
 }
 
 .section3 .text {
   margin-left: auto;
   padding-right: 30px;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 18px;
 }
 
 .section4 {
@@ -204,7 +203,7 @@ button {
   margin: 10px 0
 }
 
-.section5 {
+.footer {
   background-color: #1F2937;
   text-align: center;
   color: #E5E7EB;
