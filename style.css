@@ -49,18 +49,21 @@ a:visited {
   background-color: #1F2937;
   justify-content: center;
   align-items: center;
+  padding: 100px 150px;
 }
 
 .main-title {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 150px;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  flex: 1;
 }
 
 .hero .text1 {
@@ -84,7 +87,7 @@ button {
 }
 
 .section1 .image-container {
-  width: 500px;
+  width: 450px;
   height: 220px;
   background-color: grey;
   display: flex;
@@ -92,7 +95,7 @@ button {
   align-items: center;
   color: white;
   font-size: 14px;
-  flex-shrink: 0;
+  flex: 1;
 }
 
 .section2 {
