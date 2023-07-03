@@ -87,7 +87,7 @@ button {
 }
 
 .section1 .image-container {
-  width: 450px;
+  min-width: 300px;
   height: 220px;
   background-color: grey;
   display: flex;
@@ -112,41 +112,37 @@ button {
 
 /* Change container layout so that each card and caption  pair moves independently */ 
 
-.card-container,
-.caption-container {
+.card-container{
   display: flex;
-  margin: 0 auto;
-  width: 650px;
-  justify-content: center;
+  padding: 0 250px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.card-container {
-  padding-bottom: 15px;
-  gap: 40px;
+.card-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px;
 }
 
 .card {
   border: 4px solid #3882F6;
   border-radius: 15px;
-  flex-shrink: 0;
 }
 
-.caption-container {
-  display: flex;
-  gap: 40px
+.caption {
+  text-align: center;
+  color: #5a6370;
 }
 
 .caption,
 .card {
   width: 150px;
   height: 150px;
-}
-
-.caption {
-  text-align: center;
-  color: #5a6370;
   flex-shrink: 0;
 }
+
 .section3 {
   background-color: #E5E7EB;
   padding: 70px 150px;
